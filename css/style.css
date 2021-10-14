@@ -9,8 +9,23 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 600px;
 }
 
+.border{
+ border:1px solid #94e21a;
+}
+
+.green{
+    color: #4bc800;
+}
+.color-blue{
+    color:#2ebaff;
+}
+
+.pos-rel{
+    position:relative;
+}
 
 /* ---header----  */
 i{
@@ -69,7 +84,7 @@ main{
     display: flex;
     background-color: #010101;
     width: 100%;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 160px);
     justify-content: center;
     padding-bottom: 60px;
 }
@@ -94,6 +109,7 @@ main{
 .left-arrow i{
     font-size: 70px;
 }
+
 
 .numero{
     color: white;
@@ -120,14 +136,16 @@ main{
 .box-pic img{
     width: 100%;
     padding: 5px;
+    object-fit: cover;
+    object-position: 0px -30px;
 }
 .icon-pic{
     position:absolute;
     bottom:5px;
     left:5px;
-    width:25%;
+    width:35%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
     color:#dcdcdc ;
     background-color:#010101a8 ;
 }
@@ -143,14 +161,19 @@ footer{
     align-items: center;
     background-color: #212324;
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 footer i{
     font-size: 30px;
+    padding-bottom: 5px;
 }
 
 footer .text{
     color:#dcdcdc;
+}
+
+.arrow-up i{
+    font-size: 15px;
 }
 
 .main-footer, .camera, .mic-footer{
@@ -193,6 +216,33 @@ footer .text{
     color: #ec534b;
     padding: 50px 20px;
 }
+
+.bottom-right:hover{
+    opacity: 0.5;
+    scale:0.58;
+}
+
+.top-number{
+position: absolute;
+color:#dcdcdc ;
+top:-5px;
+right: -20px;
+font-weight: 600;
+}
+
+.arrow-btm{
+position: absolute;
+color:#dcdcdc ;
+bottom:-5px;
+right: -10px;
+font-weight: 600;
+}
+
+.arrow-btm i{
+    font-size: 15px;
+}
+
+
 
 
 
