@@ -6,6 +6,109 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* ---header----  */
+i{
+  color: #dcdcdc;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color:#010101 ;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-left{
+    width:7%;
+    display: flex;
+    align-items: center;
+    background-color: #3a3a3a;
+    margin-right: 8px;
+    justify-content: space-evenly;
+    padding: 8px 5px;
+    border-radius: 5px;
+}
+
+.top-right{
+    display: flex;
+    align-items: center;
+    background-color: #3a3a3a;
+    margin-right: 20px;
+    padding: 8px 8px;
+    border-radius: 5px;
+
+}
+
+.speaker-view{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+header .icon{
+    background-color: #3a3a3a;
+}
+
+.speaker-view h4{
+    font-weight: lighter;
+    color:#dcdcdc
+}
+
+/* -----main ------ */
+main{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 180px);
+}
+
+.left-arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.right-arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+/* ------footer ------- */
+footer{
+width: 100%;
+height: 100px;
+}
+
+
+/* ---------debug----------- */
+
+/* .debug header{
+    background-color:lightgray;
+} */
+
+.debug main{
+    background-color: tomato;
+}
+
+.debug footer{
+    background-color: lightgray;
+}
+
+/* .debug .dots{
+    background-color:salmon;
+}
+
+.debug .user{
+    background-color: yellow;
+} */
