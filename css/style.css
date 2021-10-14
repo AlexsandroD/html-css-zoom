@@ -143,9 +143,7 @@ main{
     position:absolute;
     bottom:5px;
     left:5px;
-    width:35%;
     display: flex;
-    justify-content:space-between;
     color:#dcdcdc ;
     background-color:#010101a8 ;
 }
