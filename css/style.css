@@ -27,7 +27,7 @@ header{
 }
 
 .top-left{
-    width:7%;
+    width:8%;
     display: flex;
     align-items: center;
     background-color: #3a3a3a;
@@ -35,6 +35,7 @@ header{
     justify-content: space-evenly;
     padding: 8px 5px;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 .top-right{
@@ -44,6 +45,7 @@ header{
     margin-right: 20px;
     padding: 8px 8px;
     border-radius: 5px;
+    font-size: 20px;
 
 }
 
@@ -69,18 +71,19 @@ main{
     width: 100%;
     height: calc(100vh - 180px);
     justify-content: center;
+    padding-bottom: 60px;
 }
 
 .left-arrow{
     display: flex;
-    width: 5%;
+    width: 4%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .right-arrow{
-    width: 5%;
+    width: 4%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,15 +96,15 @@ main{
 }
 
 .numero{
-    color: #dcdcdc;
+    color: white;
 }
 
-
+/* video call section  */
 .main-pic{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 80%;
+    width: 86%;
     height: 100%;
     margin:10px;
     padding: 10px;
@@ -128,15 +131,72 @@ main{
     color:#dcdcdc ;
     background-color:#010101a8 ;
 }
+/* ///video call section  */
 
 
 
 
 /* ------footer ------- */
 footer{
-width: 100%;
-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212324;
+    width: 100%;
+    height: 100px;
 }
+footer i{
+    font-size: 30px;
+}
+
+footer .text{
+    color:#dcdcdc;
+}
+
+.main-footer, .camera, .mic-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-left, .bottom-center, .bottom-right{
+    display: flex;
+    height: 90%;
+    align-items: center;
+    font-size: 20px;
+}
+
+.bottom-left{
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-center{
+    width: 50%;
+    justify-content: space-around;
+}
+
+.icons-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-right{
+    height: 100%;
+    background-color:#4b4c4f ;
+}
+
+.bottom-right a{
+    text-decoration: none;
+    color: #ec534b;
+    padding: 50px 20px;
+}
+
+
+
+
 
 
 /* ---------debug----------- */
@@ -149,10 +209,22 @@ height: 100px;
     background-color: #010101;
 } */
 
-.debug footer{
+/* .debug footer{
     background-color: lightgray;
+} */
+/* 
+.debug .bottom-left{
+    background-color: green;
 }
 
+.debug .bottom-center{
+    background-color: yellow;
+}
+
+.debug .bottom-right{
+    background-color: red;
+}
+ */
 
 
 /* .debug .box-pic{
