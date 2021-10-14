@@ -58,30 +58,78 @@ header .icon{
 }
 
 .speaker-view h4{
-    font-weight: lighter;
+    font-weight: 600;
     color:#dcdcdc
 }
 
 /* -----main ------ */
 main{
     display: flex;
+    background-color: #010101;
     width: 100%;
     height: calc(100vh - 180px);
+    justify-content: center;
 }
 
 .left-arrow{
     display: flex;
+    width: 5%;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .right-arrow{
+    width: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
+
+.right-arrow i,
+.left-arrow i{
+    font-size: 70px;
+}
+
+.numero{
+    color: #dcdcdc;
+}
+
+
+.main-pic{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    margin:10px;
+    padding: 10px;
+}
+
+.box-pic{
+    display: flex;
+    position: relative;
+    width:calc(100% / 5);
+    height: calc(100% / 5);
+}
+
+.box-pic img{
+    width: 100%;
+    padding: 5px;
+}
+.icon-pic{
+    position:absolute;
+    bottom:5px;
+    left:5px;
+    width:25%;
+    display: flex;
+    justify-content: space-evenly;
+    color:#dcdcdc ;
+    background-color:#010101a8 ;
+}
+
+
 
 
 /* ------footer ------- */
@@ -96,14 +144,21 @@ height: 100px;
 /* .debug header{
     background-color:lightgray;
 } */
-
+/* 
 .debug main{
-    background-color: tomato;
-}
+    background-color: #010101;
+} */
 
 .debug footer{
     background-color: lightgray;
 }
+
+
+
+/* .debug .box-pic{
+    background-color: steelblue;
+    border: 1px solid black;
+} */
 
 /* .debug .dots{
     background-color:salmon;
@@ -112,3 +167,4 @@ height: 100px;
 .debug .user{
     background-color: yellow;
 } */
+
